@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap');
+*{
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  background-color:  #F3F3F3;
+}
+h5{
+  font-weight: bold; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration-line: underline;  
+  color: #181717;
+}
+
+/* nav-bar */
+.nav-title{
+  padding: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+ font-size: 180%;
+}
+.nav-links ul{
+  display: flex;
+  list-style: none;
+  gap: 31.9px;
+  font-weight: 500;
+  size: 21px;
+  line-height: 25.2px;
+  letter-spacing: -3%;
+ 
+}
+.nav-links li a{
+  text-decoration: solid;
+  color:black ;
+}
+/* head */
+.name-title{
+  display: flex;
+  padding: 8%;
+  justify-content: space-between;
+}
+.name{
+  width: 480px;
+height: 199px;
+left: calc(50% - 480px/2 - 320px);
+top: 360px;
+font-size: 35px;
+line-height: 125%;
+;
+color: #181717;
+
+}
+.about-me{
+  position: absolute;
+width: 575px;
+height: 359px;
+top: 591px;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+letter-spacing: -0.03em;
+color: #606060;
+}
+
+/* middle */
+
+.middle {
+  padding-top: 0%;
+  padding: 8%;
+}
+.row-content{
+  display: flex;
+}
+.col{
+  padding: 5%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #181717;
+}
+.col-1{
+  margin-left: 2.2rem;
+}
+
+/* contact-me */
+
+.contact-me{
+  display: flex;
+  padding: 8%;
+  justify-content: space-between;
+}
+.other{
+width: 347px;
+height: 71px;
+font-size: 32px;
+line-height: 117%;
+letter-spacing: -0.03em;
+}
+.arrows{
+  position: relative;
+}
+
+.direct{
+  position: absolute;
+  top: 55%;
+  left: 74%;
+}
+.email{
+  margin-right: 128px;
+}
+
+/* footer */
+.footer{
+  padding:8%;
+  display: flex;
+  justify-content: space-between;
+  color:  #2429AF;
+  ;
+}

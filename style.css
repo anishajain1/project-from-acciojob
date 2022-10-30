@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap');
+*{
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  background-color:  #F3F3F3;
+}
+
+
+/* nav-bar */
+.nav-title{
+  padding: 8%;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+ font-size: 180%;
+
+}
+.nav-links ul{
+  display: flex;
+  list-style: none;
+  gap: 31.9px;
+  font-weight: 500;
+  size: 21px;
+  line-height: 25.2px;
+  letter-spacing: -3%;
+ 
+}
+.nav-links li a{
+  text-decoration: solid;
+  color:black ;
+}
+
+/* title */
+.homepage-name{
+  padding: 8%;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-right:30px;
+}
+.name{
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  color: #181717;
+  font-size: 25px;
+}
+.about-me{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 000;
+letter-spacing: -0.03em;
+color: #606060;
+position: absolute;
+width: 580px;
+height: 111px;
+left: calc(50% - 580px/2 + 206px);
+top: 450px;
+font-size: 32px;
+}
+.arrow{
+  position: absolute;
+width: 33.61px;
+height: 38.04px;
+
+top: 605.18px;
+
+}
+
+/* project */
+
+.row{
+display: flex;
+padding: 8%;
+font-family: 'Inter';
+font-style: normal;
+
+}
+.titleimage{
+  left: 42.86%;
+  
+  bottom: 22.9%;
+  height: 342px;
+  width: 640px;
+  margin-left: 260px;
+  top: 0px;
+}
+.project-heading{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 121.5%;
+  letter-spacing: -0.03em;
+  
+  }
+.project-sub{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 121.5%;  
+  color: #181717;
+  letter-spacing: -0.03em;
+}
+.project-info{
+  font-weight: 400;
+font-size: 14px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+color: #606060;
+}
+
+.link a{
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+  color: black;
+  letter-spacing: -0.03em;
+}
+.exp a{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 121.5%;
+    color:#606060;
+    letter-spacing: -0.03em;
+}
+/* footer */
+.footer{
+  padding:8%;
+  display: flex;
+  justify-content: space-between;
+  color:  #2429AF;
+  ;
+}
